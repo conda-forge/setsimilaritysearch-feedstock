@@ -1,5 +1,5 @@
 {% set name = "setsimilaritysearch" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/SetSimilaritySearch-{{ version }}.tar.gz
-  sha256: 87eaa3c0fb522a7f88d2bae42a95ed30329fcc547e408382afcece11d5922c94
+  sha256: 57f3d5886dd982e388a94fca492e9ca54223076f9f70bb222f69dc5c84f63131
 
 build:
   number: 0
